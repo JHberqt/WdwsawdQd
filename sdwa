@@ -1,0 +1,1454 @@
+game:GetService'StarterGui':SetCore('SendNotification', {
+      Title = 'Axon Scripts',
+      Text = 'Thanks For Using Axon Scripts!',
+      Icon = 'http://www.roblox.com/asset/?id=32823625',
+      Button1 = 'no problemo',
+      Duration = 10
+    })
+    -- Instances:
+    local AxonZsFEScript = Instance.new("ScreenGui")
+    local WorkAtAPizzaPlaceUI = Instance.new("Frame")
+    local topOT = Instance.new("Frame")
+    local TextLabel = Instance.new("TextLabel")
+    local TextButton = Instance.new("TextButton")
+    local tabsOT = Instance.new("Frame")
+    local mainGOTO = Instance.new("TextButton")
+    local playerGOTO = Instance.new("TextButton")
+    local imgPlr = Instance.new("ImageLabel")
+    local tpGOTO = Instance.new("TextButton")
+    local imgTp = Instance.new("ImageLabel")
+    local imgMain = Instance.new("ImageLabel")
+    local imgSound = Instance.new("ImageLabel")
+    local soundGOTO = Instance.new("TextButton")
+    local aboutOT = Instance.new("Frame")
+    local aA = Instance.new("TextLabel")
+    local sA = Instance.new("TextLabel")
+    local axonA = Instance.new("TextLabel")
+    local scriptA = Instance.new("TextLabel")
+    local byA = Instance.new("TextLabel")
+    local requestA = Instance.new("TextLabel")
+    local homeT = Instance.new("Frame")
+    local aB = Instance.new("TextLabel")
+    local sB = Instance.new("TextLabel")
+    local axonAB = Instance.new("TextLabel")
+    local scriptB = Instance.new("TextLabel")
+    local thx = Instance.new("TextLabel")
+    local random = Instance.new("TextLabel")
+    local mainT = Instance.new("Frame")
+    local titleMain = Instance.new("TextLabel")
+    local toggleBox = Instance.new("TextButton")
+    local labelBox = Instance.new("TextLabel")
+    local buttonBring = Instance.new("TextButton")
+    local labelMoreSoon = Instance.new("TextLabel")
+    local plrT = Instance.new("Frame")
+    local titlePlayer = Instance.new("TextLabel")
+    local buttonUpdate = Instance.new("TextButton")
+    local boxSpeed = Instance.new("TextBox")
+    local boxPower = Instance.new("TextBox")
+    local buttonManager = Instance.new("TextButton")
+    local buttonNoclip = Instance.new("TextButton")
+    local tpT = Instance.new("Frame")
+    local titleTeleport = Instance.new("TextLabel")
+    local spawmTp = Instance.new("TextButton")
+    local cashierTp = Instance.new("TextButton")
+    local cookTp = Instance.new("TextButton")
+    local managerTp = Instance.new("TextButton")
+    local boxerTp = Instance.new("TextButton")
+    local supplierTp = Instance.new("TextButton")
+    local deliveryTp = Instance.new("TextButton")
+    local soundT = Instance.new("Frame")
+    local titleSound = Instance.new("TextLabel")
+    local buttonPlay = Instance.new("TextButton")
+    local idBox = Instance.new("TextBox")
+    local volBox = Instance.new("TextBox")
+    local buttonSpam = Instance.new("TextButton")
+    -- Dragify:
+    WorkAtAPizzaPlaceUI.Active = true
+    WorkAtAPizzaPlaceUI.Draggable = true
+    --Properties:
+    AxonZsFEScript.Name = "AxonZsFEScript"
+    AxonZsFEScript.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+    AxonZsFEScript.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    WorkAtAPizzaPlaceUI.Name = "WorkAtAPizzaPlaceUI"
+    WorkAtAPizzaPlaceUI.Parent = AxonZsFEScript
+    WorkAtAPizzaPlaceUI.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    WorkAtAPizzaPlaceUI.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    WorkAtAPizzaPlaceUI.BorderSizePixel = 3
+    WorkAtAPizzaPlaceUI.Position = UDim2.new(0.259425104, 0, 0.397826135, 0)
+    WorkAtAPizzaPlaceUI.Size = UDim2.new(0, 658, 0, 418)
+    topOT.Name = "topOT"
+    topOT.Parent = WorkAtAPizzaPlaceUI
+    topOT.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    topOT.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    topOT.BorderSizePixel = 3
+    topOT.Position = UDim2.new(0.0140556172, 0, 0.0237882286, 0)
+    topOT.Size = UDim2.new(0, 639, 0, 25)
+    TextLabel.Parent = topOT
+    TextLabel.Active = true
+    TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel.BackgroundTransparency = 1.000
+    TextLabel.Position = UDim2.new(0.1799687, 0, 0, 0)
+    TextLabel.Size = UDim2.new(0, 408, 0, 25)
+    TextLabel.Font = Enum.Font.Code
+    TextLabel.Text = "AxonZ's Work At A Pizza Place GUI"
+    TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel.TextScaled = true
+    TextLabel.TextSize = 14.000
+    TextLabel.TextWrapped = true
+    TextButton.Parent = topOT
+    TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextButton.BackgroundTransparency = 1.000
+    TextButton.Position = UDim2.new(0.945227027, 0, 0, 0)
+    TextButton.Size = UDim2.new(0, 35, 0, 25)
+    TextButton.Font = Enum.Font.Code
+    TextButton.Text = "X"
+    TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    TextButton.TextScaled = true
+    TextButton.TextSize = 14.000
+    TextButton.TextWrapped = true
+    TextButton.MouseButton1Click:Connect(function()
+        AxonZsFEScript:Destroy(1)
+    end)
+    tabsOT.Name = "tabsOT"
+    tabsOT.Parent = WorkAtAPizzaPlaceUI
+    tabsOT.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    tabsOT.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    tabsOT.BorderSizePixel = 3
+    tabsOT.Position = UDim2.new(0.0125358608, 0, 0.10752029, 0)
+    tabsOT.Size = UDim2.new(0, 181, 0, 161)
+    mainGOTO.Name = "mainGOTO"
+    mainGOTO.Parent = tabsOT
+    mainGOTO.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    mainGOTO.BackgroundTransparency = 1.000
+    mainGOTO.Position = UDim2.new(0.282243609, 0, 0.0310559012, 0)
+    mainGOTO.Size = UDim2.new(0, 106, 0, 34)
+    mainGOTO.Font = Enum.Font.Code
+    mainGOTO.Text = "Main"
+    mainGOTO.TextColor3 = Color3.fromRGB(255, 255, 255)
+    mainGOTO.TextScaled = true
+    mainGOTO.TextSize = 14.000
+    mainGOTO.TextWrapped = true
+    mainGOTO.MouseButton1Click:Connect(function()
+        mainT.Visible = true
+        plrT.Visible = false
+        tpT.Visible = false
+        soundT.Visible = false
+        homeT.Visible = false
+    end)
+    playerGOTO.Name = "playerGOTO"
+    playerGOTO.Parent = tabsOT
+    playerGOTO.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    playerGOTO.BackgroundTransparency = 1.000
+    playerGOTO.Position = UDim2.new(0.320917606, 0, 0.267080754, 0)
+    playerGOTO.Size = UDim2.new(0, 106, 0, 34)
+    playerGOTO.Font = Enum.Font.Code
+    playerGOTO.Text = "Players"
+    playerGOTO.TextColor3 = Color3.fromRGB(255, 255, 255)
+    playerGOTO.TextScaled = true
+    playerGOTO.TextSize = 14.000
+    playerGOTO.TextWrapped = true
+    playerGOTO.MouseButton1Click:Connect(function()
+        mainT.Visible = false
+        plrT.Visible = true
+        tpT.Visible = false
+        soundT.Visible = false
+        homeT.Visible = false
+    end)
+    imgPlr.Name = "imgPlr"
+    imgPlr.Parent = tabsOT
+    imgPlr.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    imgPlr.BackgroundTransparency = 1.000
+    imgPlr.Position = UDim2.new(0.121546969, 0, 0.279503107, 0)
+    imgPlr.Size = UDim2.new(0, 30, 0, 32)
+    imgPlr.Image = "http://www.roblox.com/asset/?id=2795572800"
+    tpGOTO.Name = "tpGOTO"
+    tpGOTO.Parent = tabsOT
+    tpGOTO.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    tpGOTO.BackgroundTransparency = 1.000
+    tpGOTO.Position = UDim2.new(0.320917606, 0, 0.521739125, 0)
+    tpGOTO.Size = UDim2.new(0, 106, 0, 34)
+    tpGOTO.Font = Enum.Font.Code
+    tpGOTO.Text = "Teleports"
+    tpGOTO.TextColor3 = Color3.fromRGB(255, 255, 255)
+    tpGOTO.TextScaled = true
+    tpGOTO.TextSize = 14.000
+    tpGOTO.TextWrapped = true
+    tpGOTO.MouseButton1Click:Connect(function()
+        mainT.Visible = false
+        plrT.Visible = false
+        tpT.Visible = true
+        soundT.Visible = false
+        homeT.Visible = false
+    end)
+    imgTp.Name = "imgTp"
+    imgTp.Parent = tabsOT
+    imgTp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    imgTp.BackgroundTransparency = 1.000
+    imgTp.Position = UDim2.new(0.121546969, 0, 0.534161508, 0)
+    imgTp.Size = UDim2.new(0, 30, 0, 32)
+    imgTp.Image = "http://www.roblox.com/asset/?id=6723742952"
+    imgMain.Name = "imgMain"
+    imgMain.Parent = tabsOT
+    imgMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    imgMain.BackgroundTransparency = 1.000
+    imgMain.Position = UDim2.new(0.0828729272, 0, 0, 0)
+    imgMain.Size = UDim2.new(0, 46, 0, 44)
+    imgMain.Image = "http://www.roblox.com/asset/?id=279461710"
+    imgMain.ScaleType = Enum.ScaleType.Crop
+    imgSound.Name = "imgSound"
+    imgSound.Parent = tabsOT
+    imgSound.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    imgSound.BackgroundTransparency = 1.000
+    imgSound.Position = UDim2.new(0.121546969, 0, 0.788819909, 0)
+    imgSound.Size = UDim2.new(0, 30, 0, 32)
+    imgSound.Image = "http://www.roblox.com/asset/?id=7203392850"
+    soundGOTO.Name = "soundGOTO"
+    soundGOTO.Parent = tabsOT
+    soundGOTO.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    soundGOTO.BackgroundTransparency = 1.000
+    soundGOTO.Position = UDim2.new(0.320917606, 0, 0.776397586, 0)
+    soundGOTO.Size = UDim2.new(0, 106, 0, 34)
+    soundGOTO.Font = Enum.Font.Code
+    soundGOTO.Text = "Sound"
+    soundGOTO.TextColor3 = Color3.fromRGB(255, 255, 255)
+    soundGOTO.TextScaled = true
+    soundGOTO.TextSize = 14.000
+    soundGOTO.TextWrapped = true
+    soundGOTO.MouseButton1Click:Connect(function()
+        mainT.Visible = false
+        plrT.Visible = false
+        tpT.Visible = false
+        soundT.Visible = true
+        homeT.Visible = false
+    end)
+    aboutOT.Name = "aboutOT"
+    aboutOT.Parent = WorkAtAPizzaPlaceUI
+    aboutOT.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    aboutOT.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    aboutOT.BorderSizePixel = 3
+    aboutOT.Position = UDim2.new(0.0140556172, 0, 0.51900351, 0)
+    aboutOT.Size = UDim2.new(0, 181, 0, 188)
+    aA.Name = "aA"
+    aA.Parent = aboutOT
+    aA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    aA.BackgroundTransparency = 1.000
+    aA.Position = UDim2.new(0.204419881, 0, 0, 0)
+    aA.Size = UDim2.new(0, 78, 0, 67)
+    aA.Font = Enum.Font.SourceSansItalic
+    aA.Text = "A"
+    aA.TextColor3 = Color3.fromRGB(255, 255, 255)
+    aA.TextScaled = true
+    aA.TextSize = 14.000
+    aA.TextWrapped = true
+    sA.Name = "sA"
+    sA.Parent = aboutOT
+    sA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    sA.BackgroundTransparency = 1.000
+    sA.Position = UDim2.new(0.364640892, 0, 0, 0)
+    sA.Size = UDim2.new(0, 78, 0, 67)
+    sA.Font = Enum.Font.SourceSansItalic
+    sA.Text = "S"
+    sA.TextColor3 = Color3.fromRGB(255, 255, 255)
+    sA.TextScaled = true
+    sA.TextSize = 14.000
+    sA.TextWrapped = true
+    axonA.Name = "axonA"
+    axonA.Parent = aboutOT
+    axonA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    axonA.BackgroundTransparency = 1.000
+    axonA.Position = UDim2.new(0.0828729272, 0, 0.239361703, 0)
+    axonA.Size = UDim2.new(0, 78, 0, 35)
+    axonA.Font = Enum.Font.SourceSansItalic
+    axonA.Text = "Axon"
+    axonA.TextColor3 = Color3.fromRGB(255, 255, 255)
+    axonA.TextScaled = true
+    axonA.TextSize = 14.000
+    axonA.TextWrapped = true
+    scriptA.Name = "scriptA"
+    scriptA.Parent = aboutOT
+    scriptA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    scriptA.BackgroundTransparency = 1.000
+    scriptA.Position = UDim2.new(0.475138158, 0, 0.239361703, 0)
+    scriptA.Size = UDim2.new(0, 78, 0, 35)
+    scriptA.Font = Enum.Font.SourceSansItalic
+    scriptA.Text = "Scripts"
+    scriptA.TextColor3 = Color3.fromRGB(255, 255, 255)
+    scriptA.TextScaled = true
+    scriptA.TextSize = 14.000
+    scriptA.TextWrapped = true
+    byA.Name = "byA"
+    byA.Parent = aboutOT
+    byA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    byA.BackgroundTransparency = 1.000
+    byA.Position = UDim2.new(0.00552486209, 0, 0.425531924, 0)
+    byA.Size = UDim2.new(0, 180, 0, 35)
+    byA.Font = Enum.Font.SourceSansItalic
+    byA.Text = "All By: Itz AxonZ"
+    byA.TextColor3 = Color3.fromRGB(255, 255, 255)
+    byA.TextScaled = true
+    byA.TextSize = 14.000
+    byA.TextWrapped = true
+    requestA.Name = "requestA"
+    requestA.Parent = aboutOT
+    requestA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    requestA.BackgroundTransparency = 1.000
+    requestA.Position = UDim2.new(0.00552486209, 0, 0.606382966, 0)
+    requestA.Size = UDim2.new(0, 180, 0, 73)
+    requestA.Font = Enum.Font.SourceSansItalic
+    requestA.Text = "Requested By: Maxime Renaud 👍"
+    requestA.TextColor3 = Color3.fromRGB(255, 255, 255)
+    requestA.TextScaled = true
+    requestA.TextSize = 14.000
+    requestA.TextWrapped = true
+    homeT.Name = "homeT"
+    homeT.Parent = WorkAtAPizzaPlaceUI
+    homeT.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    homeT.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    homeT.BorderSizePixel = 3
+    homeT.Position = UDim2.new(0.307368696, 0, 0.10752029, 0)
+    homeT.Size = UDim2.new(0, 446, 0, 360)
+    homeT.Visible = true
+    aB.Name = "aB"
+    aB.Parent = homeT
+    aB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    aB.BackgroundTransparency = 1.000
+    aB.Position = UDim2.new(0.340874642, 0, 0.0310752839, 0)
+    aB.Size = UDim2.new(0, 96, 0, 82)
+    aB.Font = Enum.Font.SourceSansItalic
+    aB.Text = "A"
+    aB.TextColor3 = Color3.fromRGB(255, 255, 255)
+    aB.TextScaled = true
+    aB.TextSize = 14.000
+    aB.TextWrapped = true
+    sB.Name = "sB"
+    sB.Parent = homeT
+    sB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    sB.BackgroundTransparency = 1.000
+    sB.Position = UDim2.new(0.403054148, 0, 0.0719245896, 0)
+    sB.Size = UDim2.new(0, 96, 0, 82)
+    sB.Font = Enum.Font.SourceSansItalic
+    sB.Text = "S"
+    sB.TextColor3 = Color3.fromRGB(255, 255, 255)
+    sB.TextScaled = true
+    sB.TextSize = 14.000
+    sB.TextWrapped = true
+    axonAB.Name = "axonAB"
+    axonAB.Parent = homeT
+    axonAB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    axonAB.BackgroundTransparency = 1.000
+    axonAB.Position = UDim2.new(0.260002911, 0, 0.178031489, 0)
+    axonAB.Size = UDim2.new(0, 96, 0, 42)
+    axonAB.Font = Enum.Font.SourceSansItalic
+    axonAB.Text = "Axon"
+    axonAB.TextColor3 = Color3.fromRGB(255, 255, 255)
+    axonAB.TextScaled = true
+    axonAB.TextSize = 14.000
+    axonAB.TextWrapped = true
+    scriptB.Name = "scriptB"
+    scriptB.Parent = homeT
+    scriptB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    scriptB.BackgroundTransparency = 1.000
+    scriptB.Position = UDim2.new(0.481356055, 0, 0.0282506291, 0)
+    scriptB.Size = UDim2.new(0, 96, 0, 42)
+    scriptB.Font = Enum.Font.SourceSansItalic
+    scriptB.Text = "Scripts"
+    scriptB.TextColor3 = Color3.fromRGB(255, 255, 255)
+    scriptB.TextScaled = true
+    scriptB.TextSize = 14.000
+    scriptB.TextWrapped = true
+    thx.Name = "thx"
+    thx.Parent = homeT
+    thx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    thx.BackgroundTransparency = 1.000
+    thx.Position = UDim2.new(0.153506964, 0, 0.32553187, 0)
+    thx.Size = UDim2.new(0, 292, 0, 105)
+    thx.Font = Enum.Font.SourceSansItalic
+    thx.Text = "Thanks For Using Axon Scripts!"
+    thx.TextColor3 = Color3.fromRGB(255, 255, 255)
+    thx.TextScaled = true
+    thx.TextSize = 14.000
+    thx.TextWrapped = true
+    random.Name = "random"
+    random.Parent = homeT
+    random.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    random.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    random.BorderSizePixel = 2
+    random.Position = UDim2.new(0.0189778283, 0, 0.831146598, 0)
+    random.Size = UDim2.new(0, 429, 0, 48)
+    random.Font = Enum.Font.SourceSansItalic
+    random.Text = "Random"
+    random.TextColor3 = Color3.fromRGB(255, 255, 255)
+    random.TextScaled = true
+    random.TextSize = 14.000
+    random.TextWrapped = true
+    mainT.Name = "mainT"
+    mainT.Parent = WorkAtAPizzaPlaceUI
+    mainT.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    mainT.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    mainT.BorderSizePixel = 3
+    mainT.Position = UDim2.new(0.305848926, 0, 0.10752029, 0)
+    mainT.Size = UDim2.new(0, 446, 0, 360)
+    mainT.Visible = false
+    titleMain.Name = "titleMain"
+    titleMain.Parent = mainT
+    titleMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    titleMain.BackgroundTransparency = 1.000
+    titleMain.Position = UDim2.new(0.291479826, 0, 0.0388888903, 0)
+    titleMain.Size = UDim2.new(0, 200, 0, 50)
+    titleMain.Font = Enum.Font.Code
+    titleMain.Text = "Main"
+    titleMain.TextColor3 = Color3.fromRGB(255, 255, 255)
+    titleMain.TextScaled = true
+    titleMain.TextSize = 14.000
+    titleMain.TextWrapped = true
+    toggleBox.Name = "toggleBox"
+    toggleBox.Parent = mainT
+    toggleBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    toggleBox.BackgroundTransparency = 1.000
+    toggleBox.Position = UDim2.new(0.526905835, 0, 0.294444412, 0)
+    toggleBox.Size = UDim2.new(0, 200, 0, 50)
+    toggleBox.Font = Enum.Font.Code
+    toggleBox.Text = "Button"
+    toggleBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+    toggleBox.TextScaled = true
+    toggleBox.TextSize = 14.000
+    toggleBox.MouseButton1Click:Connect(function()
+        for _,v in pairs(workspace.SupplyButtons:GetDescendants()) do
+            if v:IsA("TouchTransmitter") then
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0) --0 is touch
+                wait()
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1) -- 1 is untouch
+            end
+        end
+    end)
+    labelBox.Name = "labelBox"
+    labelBox.Parent = mainT
+    labelBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    labelBox.BackgroundTransparency = 1.000
+    labelBox.Position = UDim2.new(0.0426009074, 0, 0.294444472, 0)
+    labelBox.Size = UDim2.new(0, 200, 0, 50)
+    labelBox.Font = Enum.Font.Code
+    labelBox.Text = "Spam Boxes"
+    labelBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+    labelBox.TextScaled = true
+    labelBox.TextSize = 14.000
+    labelBox.TextWrapped = true
+    buttonBring.Name = "buttonBring"
+    buttonBring.Parent = mainT
+    buttonBring.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    buttonBring.BackgroundTransparency = 1.000
+    buttonBring.Position = UDim2.new(0.0470851995, 0, 0.458333343, 0)
+    buttonBring.Size = UDim2.new(0, 387, 0, 52)
+    buttonBring.Font = Enum.Font.Code
+    buttonBring.Text = "Bring All Unanchored Blocks"
+    buttonBring.TextColor3 = Color3.fromRGB(255, 255, 255)
+    buttonBring.TextScaled = true
+    buttonBring.TextSize = 14.000
+    buttonBring.TextWrapped = true
+    buttonBring.MouseButton1Click:Connect(function()
+        local UserInputService = game:GetService("UserInputService")
+        local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
+        local Folder = Instance.new("Folder", game:GetService("Workspace"))
+        local Part = Instance.new("Part", Folder)
+        local Attachment1 = Instance.new("Attachment", Part)
+        Part.Anchored = true
+        Part.CanCollide = false
+        Part.Transparency = 1
+        local Updated = Mouse.Hit + Vector3.new(0, 5, 0)
+        local NetworkAccess = coroutine.create(function()
+            settings().Physics.AllowSleep = false
+            while game:GetService("RunService").RenderStepped:Wait() do
+                for _, Players in next, game:GetService("Players"):GetPlayers() do
+                    if Players ~= game:GetService("Players").LocalPlayer then
+                        Players.MaximumSimulationRadius = 0
+                        sethiddenproperty(Players, "SimulationRadius", 0)
+                    end
+                end
+                game:GetService("Players").LocalPlayer.MaximumSimulationRadius = math.pow(math.huge,math.huge)
+                setsimulationradius(math.huge)
+            end
+        end)
+        coroutine.resume(NetworkAccess)
+        local function ForcePart(v)
+            if v:IsA("Part") and v.Anchored == false and v.Parent:FindFirstChild("Humanoid") == nil and v.Parent:FindFirstChild("Head") == nil and v.Name ~= "Handle" then
+                Mouse.TargetFilter = v
+                for _, x in next, v:GetChildren() do
+                    if x:IsA("BodyAngularVelocity") or x:IsA("BodyForce") or x:IsA("BodyGyro") or x:IsA("BodyPosition") or x:IsA("BodyThrust") or x:IsA("BodyVelocity") or x:IsA("RocketPropulsion") then
+                        x:Destroy()
+                    end
+                end
+                if v:FindFirstChild("Attachment") then
+                    v:FindFirstChild("Attachment"):Destroy()
+                end
+                if v:FindFirstChild("AlignPosition") then
+                    v:FindFirstChild("AlignPosition"):Destroy()
+                end
+                if v:FindFirstChild("Torque") then
+                    v:FindFirstChild("Torque"):Destroy()
+                end
+                v.CanCollide = false
+                local Torque = Instance.new("Torque", v)
+                Torque.Torque = Vector3.new(100000, 100000, 100000)
+                local AlignPosition = Instance.new("AlignPosition", v)
+                local Attachment2 = Instance.new("Attachment", v)
+                Torque.Attachment0 = Attachment2
+                AlignPosition.MaxForce = 9999999999999999
+                AlignPosition.MaxVelocity = math.huge
+                AlignPosition.Responsiveness = 200
+                AlignPosition.Attachment0 = Attachment2
+                AlignPosition.Attachment1 = Attachment1
+            end
+        end
+        for _, v in next, game:GetService("Workspace"):GetDescendants() do
+            ForcePart(v)
+        end
+        game:GetService("Workspace").DescendantAdded:Connect(function(v)
+            ForcePart(v)
+        end)
+        UserInputService.InputBegan:Connect(function(Key, Chat)
+            if Key.KeyCode == Enum.KeyCode.E and not Chat then
+                Updated = Mouse.Hit + Vector3.new(0, 5, 0)
+            end
+        end)
+        spawn(function()
+            while game:GetService("RunService").RenderStepped:Wait() do
+                Attachment1.WorldCFrame = Updated
+            end
+        end)
+    end)
+    labelMoreSoon.Name = "labelMoreSoon"
+    labelMoreSoon.Parent = mainT
+    labelMoreSoon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    labelMoreSoon.BackgroundTransparency = 1.000
+    labelMoreSoon.Position = UDim2.new(0.0336322859, 0, 0.830555558, 0)
+    labelMoreSoon.Size = UDim2.new(0, 419, 0, 50)
+    labelMoreSoon.Font = Enum.Font.Code
+    labelMoreSoon.Text = "More Comming Soon!"
+    labelMoreSoon.TextColor3 = Color3.fromRGB(255, 255, 255)
+    labelMoreSoon.TextScaled = true
+    labelMoreSoon.TextSize = 14.000
+    labelMoreSoon.TextWrapped = true
+    plrT.Name = "plrT"
+    plrT.Parent = WorkAtAPizzaPlaceUI
+    plrT.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    plrT.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    plrT.BorderSizePixel = 3
+    plrT.Position = UDim2.new(0.305848926, 0, 0.10752029, 0)
+    plrT.Size = UDim2.new(0, 446, 0, 360)
+    plrT.Visible = false
+    titlePlayer.Name = "titlePlayer"
+    titlePlayer.Parent = plrT
+    titlePlayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    titlePlayer.BackgroundTransparency = 1.000
+    titlePlayer.Position = UDim2.new(0.291479826, 0, 0.0388888903, 0)
+    titlePlayer.Size = UDim2.new(0, 200, 0, 50)
+    titlePlayer.Font = Enum.Font.Code
+    titlePlayer.Text = "Player"
+    titlePlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
+    titlePlayer.TextScaled = true
+    titlePlayer.TextSize = 14.000
+    titlePlayer.TextWrapped = true
+    buttonUpdate.Name = "buttonUpdate"
+    buttonUpdate.Parent = plrT
+    buttonUpdate.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    buttonUpdate.BackgroundTransparency = 1.000
+    buttonUpdate.Position = UDim2.new(0.0672645643, 0, 0.519444466, 0)
+    buttonUpdate.Size = UDim2.new(0, 387, 0, 52)
+    buttonUpdate.Font = Enum.Font.Code
+    buttonUpdate.Text = "Update Humanoid"
+    buttonUpdate.TextColor3 = Color3.fromRGB(255, 255, 255)
+    buttonUpdate.TextScaled = true
+    buttonUpdate.TextSize = 14.000
+    buttonUpdate.TextWrapped = true
+    buttonUpdate.MouseButton1Click:Connect(function()
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = boxSpeed.Text
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = boxPower.Text
+    end)
+    boxSpeed.Name = "boxSpeed"
+    boxSpeed.Parent = plrT
+    boxSpeed.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    boxSpeed.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    boxSpeed.BorderSizePixel = 2
+    boxSpeed.Position = UDim2.new(0.0695067272, 0, 0.188888878, 0)
+    boxSpeed.Size = UDim2.new(0, 385, 0, 50)
+    boxSpeed.Font = Enum.Font.Code
+    boxSpeed.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+    boxSpeed.PlaceholderText = "Walk Speed"
+    boxSpeed.Text = ""
+    boxSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+    boxSpeed.TextScaled = true
+    boxSpeed.TextSize = 14.000
+    boxSpeed.TextWrapped = true
+    boxPower.Name = "boxPower"
+    boxPower.Parent = plrT
+    boxPower.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    boxPower.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    boxPower.BorderSizePixel = 2
+    boxPower.Position = UDim2.new(0.0695067272, 0, 0.352777779, 0)
+    boxPower.Size = UDim2.new(0, 385, 0, 50)
+    boxPower.Font = Enum.Font.Code
+    boxPower.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+    boxPower.PlaceholderText = "Jump Power"
+    boxPower.Text = ""
+    boxPower.TextColor3 = Color3.fromRGB(255, 255, 255)
+    boxPower.TextScaled = true
+    boxPower.TextSize = 14.000
+    boxPower.TextWrapped = true
+    buttonManager.Name = "buttonManager"
+    buttonManager.Parent = plrT
+    buttonManager.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    buttonManager.BackgroundTransparency = 1.000
+    buttonManager.Position = UDim2.new(0.0695067197, 0, 0.686111152, 0)
+    buttonManager.Size = UDim2.new(0, 387, 0, 52)
+    buttonManager.Font = Enum.Font.Code
+    buttonManager.Text = "Become Manager"
+    buttonManager.TextColor3 = Color3.fromRGB(255, 255, 255)
+    buttonManager.TextScaled = true
+    buttonManager.TextSize = 14.000
+    buttonManager.TextWrapped = true
+    buttonManager.MouseButton1Click:Connect(function()
+        local Players = game:GetService("Players")
+        local player = Players.LocalPlayer
+        local humanoid = player.Character.Humanoid
+        local mteam = game:GetService("Teams").Manager
+        local man = mteam:GetPlayers()[1]
+        --deletes a glitchy chair in the office (optional)
+        if workspace:FindFirstChild("ExtraChair") and workspace.ExtraChair:FindFirstChild("Seat") then
+            workspace.ExtraChair.Seat:Destroy()
+        end
+        if man then
+            --check if he's respawning or sitting
+            local htxt
+            if man.Character==nil or man.Character:FindFirstChild("HumanoidRootPart")==nil or man.Character:FindFirstChild("Humanoid")==nil then
+                htxt = "Failed because manager is respawning"
+            end
+            local target = man.Character.HumanoidRootPart
+            if man.Character.Humanoid.Sit then
+                htxt = "Failed because manager is sitting"
+            end
+            if htxt then
+                local h = Instance.new("Hint",workspace)
+                h.Text = htxt
+                wait(3)
+                h:Destroy()
+                return
+            end
+            --get in a car
+            if not workspace.Cars:IsAncestorOf(humanoid.SeatPart) then
+                humanoid.Jump=true
+                wait(0.1)
+                for _,car in ipairs(workspace.Cars:GetChildren()) do
+                    if car:FindFirstChild("Driver") and car.Driver.Occupant==nil and car:FindFirstChild("Owner") and car.Owner.Value==nil then
+                        car.Driver:Sit(humanoid)
+                        wait(0.3)
+                        if humanoid.SeatPart then
+                            break
+                        end
+                    end
+                end
+            end
+            local seat = humanoid.SeatPart
+            local car = seat.Parent
+            local returncf = CFrame.new(14,-4.5,21)*CFrame.Angles(0,math.pi/2,0)
+            for j=1,4 do
+                --attempt to sit manager
+                seat.Anchored=false
+                local e = 0
+                while car.HoodSeat.Occupant==nil and mteam:GetPlayers()[1] and target.Parent and e<5 do
+                    local newpos = target.Position+Vector3.new(0,-3,0)+target.CFrame.lookVector*5.5+target.Velocity*.7
+                    local flatdir = (target.CFrame.lookVector*Vector3.new(1,0,1)).Unit --target's looking direction, flattened
+                    if not (flatdir.x < 2) then --inf
+                        flatdir = Vector3.new(1,0,0)
+                    end
+                    car:SetPrimaryPartCFrame(CFrame.new(newpos,newpos-flatdir))
+                    seat.Velocity=Vector3.new()
+                    local e2=0
+                    while car.HoodSeat.Occupant==nil and mteam:GetPlayers()[1] and target.Parent and e2<0.7 do
+                        e2=e2+wait()
+                    end
+                    e=e+e2
+                end
+                --attempt to move manager
+                car:SetPrimaryPartCFrame(returncf)
+                wait(.1)
+                car:SetPrimaryPartCFrame(returncf)
+                seat.Anchored=true
+                e = 0
+                while mteam:GetPlayers()[1] and target.Parent and e<1 do
+                    e=e+wait()
+                end
+                car.HoodSeat:ClearAllChildren() --unsits anyone
+                e = 0
+                while mteam:GetPlayers()[1] and target.Parent and e<0.5 do
+                    e=e+wait()
+                end
+                if mteam:GetPlayers()[1]==nil or target.Parent==nil then
+                    break
+                end
+            end
+            --reset car
+            seat.Anchored=false
+            wait()
+            car:SetPrimaryPartCFrame(CFrame.new(120,10,-75))
+            wait()
+        end
+    end)
+    buttonNoclip.Name = "buttonNoclip"
+    buttonNoclip.Parent = plrT
+    buttonNoclip.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+    buttonNoclip.BackgroundTransparency = 1.000
+    buttonNoclip.Position = UDim2.new(0.0672645643, 0, 0.830555618, 0)
+    buttonNoclip.Size = UDim2.new(0, 387, 0, 52)
+    buttonNoclip.Font = Enum.Font.Code
+    buttonNoclip.Text = "Noclip"
+    buttonNoclip.TextColor3 = Color3.fromRGB(255, 0, 0)
+    buttonNoclip.TextScaled = true
+    buttonNoclip.TextSize = 14.000
+    buttonNoclip.TextWrapped = true
+    noclip = false
+    game:GetService('RunService').Stepped:connect(function()
+        if noclip then
+            game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+    buttonNoclip.MouseButton1Down:connect(function()
+        noclip = not noclip
+        if buttonNoclip.Text == "Noclip [ ON ]" then
+            buttonNoclip.TextColor3 = Color3.fromRGB(255, 0, 0)
+            buttonNoclip.Text = "Noclip [ OFF ]"
+        else
+            buttonNoclip.Text = "Noclip [ ON ]"
+            buttonNoclip.TextColor3 = Color3.fromRGB(0, 255, 0)
+        end
+    end)
+    tpT.Name = "tpT"
+    tpT.Parent = WorkAtAPizzaPlaceUI
+    tpT.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    tpT.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    tpT.BorderSizePixel = 3
+    tpT.Position = UDim2.new(0.307368696, 0, 0.107520282, 0)
+    tpT.Size = UDim2.new(0, 446, 0, 360)
+    tpT.Visible = false
+    titleTeleport.Name = "titleTeleport"
+    titleTeleport.Parent = tpT
+    titleTeleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    titleTeleport.BackgroundTransparency = 1.000
+    titleTeleport.Position = UDim2.new(0.291479826, 0, 0.0388888903, 0)
+    titleTeleport.Size = UDim2.new(0, 200, 0, 50)
+    titleTeleport.Font = Enum.Font.Code
+    titleTeleport.Text = "Teleports"
+    titleTeleport.TextColor3 = Color3.fromRGB(255, 255, 255)
+    titleTeleport.TextScaled = true
+    titleTeleport.TextSize = 14.000
+    titleTeleport.TextWrapped = true
+    spawmTp.Name = "spawmTp"
+    spawmTp.Parent = tpT
+    spawmTp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    spawmTp.BackgroundTransparency = 1.000
+    spawmTp.Position = UDim2.new(0.0672645718, 0, 0.202777773, 0)
+    spawmTp.Size = UDim2.new(0, 387, 0, 34)
+    spawmTp.Font = Enum.Font.Code
+    spawmTp.Text = "Spawn"
+    spawmTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+    spawmTp.TextScaled = true
+    spawmTp.TextSize = 14.000
+    spawmTp.TextWrapped = true
+    spawmTp.MouseButton1Click:Connect(function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(49, 3, 198)   
+    end)
+    cashierTp.Name = "cashierTp"
+    cashierTp.Parent = tpT
+    cashierTp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    cashierTp.BackgroundTransparency = 1.000
+    cashierTp.Position = UDim2.new(0.0650224164, 0, 0.327777773, 0)
+    cashierTp.Size = UDim2.new(0, 387, 0, 34)
+    cashierTp.Font = Enum.Font.Code
+    cashierTp.Text = "Cashier"
+    cashierTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+    cashierTp.TextScaled = true
+    cashierTp.TextSize = 14.000
+    cashierTp.TextWrapped = true
+    cashierTp.MouseButton1Click:Connect(function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(48, 4, 80)
+    end)
+    cookTp.Name = "cookTp"
+    cookTp.Parent = tpT
+    cookTp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    cookTp.BackgroundTransparency = 1.000
+    cookTp.Position = UDim2.new(0.0650224164, 0, 0.441666663, 0)
+    cookTp.Size = UDim2.new(0, 387, 0, 34)
+    cookTp.Font = Enum.Font.Code
+    cookTp.Text = "Cook"
+    cookTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+    cookTp.TextScaled = true
+    cookTp.TextSize = 14.000
+    cookTp.TextWrapped = true
+    cookTp.MouseButton1Click:Connect(function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(42, 4, 61)
+    end)
+    managerTp.Name = "managerTp"
+    managerTp.Parent = tpT
+    managerTp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    managerTp.BackgroundTransparency = 1.000
+    managerTp.Position = UDim2.new(0.0650224164, 0, 0.555555582, 0)
+    managerTp.Size = UDim2.new(0, 387, 0, 34)
+    managerTp.Font = Enum.Font.Code
+    managerTp.Text = "Manager's Office"
+    managerTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+    managerTp.TextScaled = true
+    managerTp.TextSize = 14.000
+    managerTp.TextWrapped = true
+    managerTp.MouseButton1Click:Connect(function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37, 4, 3)
+    end)
+    boxerTp.Name = "boxerTp"
+    boxerTp.Parent = tpT
+    boxerTp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    boxerTp.BackgroundTransparency = 1.000
+    boxerTp.Position = UDim2.new(0.0672645718, 0, 0.663888931, 0)
+    boxerTp.Size = UDim2.new(0, 387, 0, 34)
+    boxerTp.Font = Enum.Font.Code
+    boxerTp.Text = "Boxer"
+    boxerTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+    boxerTp.TextScaled = true
+    boxerTp.TextSize = 14.000
+    boxerTp.TextWrapped = true
+    boxerTp.MouseButton1Click:Connect(function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(55, 4, 31)
+    end)
+    supplierTp.Name = "supplierTp"
+    supplierTp.Parent = tpT
+    supplierTp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    supplierTp.BackgroundTransparency = 1.000
+    supplierTp.Position = UDim2.new(0.0650224164, 0, 0.758333385, 0)
+    supplierTp.Size = UDim2.new(0, 387, 0, 34)
+    supplierTp.Font = Enum.Font.Code
+    supplierTp.Text = "Supplier"
+    supplierTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+    supplierTp.TextScaled = true
+    supplierTp.TextSize = 14.000
+    supplierTp.TextWrapped = true
+    supplierTp.MouseButton1Click:Connect(function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8, 13, -1020)
+    end)
+    deliveryTp.Name = "deliveryTp"
+    deliveryTp.Parent = tpT
+    deliveryTp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    deliveryTp.BackgroundTransparency = 1.000
+    deliveryTp.Position = UDim2.new(0.0650224164, 0, 0.869444489, 0)
+    deliveryTp.Size = UDim2.new(0, 387, 0, 34)
+    deliveryTp.Font = Enum.Font.Code
+    deliveryTp.Text = "Delivery"
+    deliveryTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+    deliveryTp.TextScaled = true
+    deliveryTp.TextSize = 14.000
+    deliveryTp.TextWrapped = true
+    deliveryTp.MouseButton1Click:Connect(function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(64, 4, -17)
+    end)
+    soundT.Name = "soundT"
+    soundT.Parent = WorkAtAPizzaPlaceUI
+    soundT.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    soundT.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    soundT.BorderSizePixel = 3
+    soundT.Position = UDim2.new(0.305848926, 0, 0.10752029, 0)
+    soundT.Size = UDim2.new(0, 446, 0, 360)
+    soundT.Visible = false
+    titleSound.Name = "titleSound"
+    titleSound.Parent = soundT
+    titleSound.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    titleSound.BackgroundTransparency = 1.000
+    titleSound.Position = UDim2.new(0.291479826, 0, 0.0388888903, 0)
+    titleSound.Size = UDim2.new(0, 200, 0, 50)
+    titleSound.Font = Enum.Font.Code
+    titleSound.Text = "Sound"
+    titleSound.TextColor3 = Color3.fromRGB(255, 255, 255)
+    titleSound.TextScaled = true
+    titleSound.TextSize = 14.000
+    titleSound.TextWrapped = true
+    buttonPlay.Name = "buttonPlay"
+    buttonPlay.Parent = soundT
+    buttonPlay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    buttonPlay.BackgroundTransparency = 1.000
+    buttonPlay.Position = UDim2.new(0.0672645643, 0, 0.519444466, 0)
+    buttonPlay.Size = UDim2.new(0, 387, 0, 52)
+    buttonPlay.Font = Enum.Font.Code
+    buttonPlay.Text = "Play"
+    buttonPlay.TextColor3 = Color3.fromRGB(255, 255, 255)
+    buttonPlay.TextScaled = true
+    buttonPlay.TextSize = 14.000
+    buttonPlay.TextWrapped = true
+    buttonPlay.MouseButton1Click:Connect(function()
+        getgenv().audioId = idBox.Text -- self explanatory
+        getgenv().soundVolume = volBox.Text -- up to 10
+        local userdata_1 = game:GetService("Players").LocalPlayer.PlayerGui.MainGui.Menu.Emotions;
+        local userdata_2 = game:GetService("Players").LocalPlayer.PlayerGui.MainGui.Menu.Emotions.ScrollingFrame.List;
+        local userdata_3 = game:GetService("Players").LocalPlayer.PlayerGui.MainGui.Menu.Emotions.ScrollingFrame.List.Template;
+        local table_2 = {
+            ["Name"] = 'Clap',
+            ["GroupColor"] = 'Bright blue'
+        };
+        local table_1 = {
+            ["Sleep"] = {
+                ["SoundLooped"] = true,
+                ["R15"] = 4308418502,
+                ["FaceId"] = 66329905,
+                ["Object"] = 'Sleep',
+                ["Name"] = 'Sleep',
+                ["R6"] = 868450390,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["Volume"] = soundVolume,
+                ["MovementCancel"] = true
+            },
+            ["Bye"] = {
+                ["Name"] = 'Bye',
+                ["R6"] = 154179312,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308390587,
+                ["Object"] = 'Bye'
+            },
+            ["Point"] = {
+                ["Name"] = 'Point',
+                ["R6"] = 154188723,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308408568,
+                ["Object"] = 'Point'
+            },
+            ["Bathtub"] = {
+                ["Name"] = 'Bathtub',
+                ["R6"] = 1799552363,
+                ["Priority"] = 'Enum.AnimationPriority.Core',
+                ["R15"] = 1794938782,
+                ["Object"] = 'Bathtub'
+            },
+            ["Glee"] = {
+                ["Object"] = 'Glee',
+                ["Name"] = 'Glee',
+                ["FaceId"] = 27802003,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308399012,
+                ["R6"] = 154159852
+            },
+            ["Coffin"] = {
+                ["Name"] = 'Coffin',
+                ["MovementCancel"] = true,
+                ["R15"] = 2506115448,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["Object"] = 'Coffin',
+                ["R6"] = 2506141081
+            },
+            ["Twist"] = {
+                ["Name"] = 'Twist',
+                ["MovementCancel"] = true,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308333353,
+                ["Object"] = 'Twist'
+            },
+            ["ToolHold"] = {
+                ["Name"] = 'ToolHold',
+                ["R6"] = 182393478,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308323620,
+                ["Object"] = 'ToolHold'
+            },
+            ["Confused"] = {
+                ["Object"] = 'Confused',
+                ["Name"] = 'Confused',
+                ["FaceId"] = 120250454,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308393154,
+                ["R6"] = 154183110
+            },
+            ["DrinkSmoothie"] = {
+                ["Object"] = 'DrinkSmoothie',
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["Name"] = 'DrinkSmoothie',
+                ["R15"] = 3339779154
+            },
+            ["DrinkCoffee"] = {
+                ["Object"] = 'DrinkCoffee',
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["Name"] = 'DrinkCoffee',
+                ["R15"] = 3339576493
+            },
+            ["Shocked"] = {
+                ["Object"] = 'Shocked',
+                ["Name"] = 'Shocked',
+                ["FaceId"] = 1601874588,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 1602091152,
+                ["R6"] = 1620310558
+            },
+            ["Laugh"] = {
+                ["Object"] = 'Laugh',
+                ["Name"] = 'Laugh',
+                ["FaceId"] = 32063242,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308402710,
+                ["R6"] = 154166518
+            },
+            ["Idle"] = {
+                ["Name"] = 'Idle',
+                ["Weight"] = 0.4,
+                ["R15"] = 507766388,
+                ["Priority"] = 'Enum.AnimationPriority.Core',
+                ["Object"] = 'Idle',
+                ["R6"] = 180435571
+            },
+            ["Jump"] = {
+                ["Name"] = 'Jump',
+                ["Weight"] = 0.7,
+                ["R15"] = 507765000,
+                ["Priority"] = 'Enum.AnimationPriority.Core',
+                ["Object"] = 'Jump',
+                ["R6"] = 125750702
+            },
+            ["Sad"] = {
+                ["Object"] = 'Sad',
+                ["Name"] = 'Sad',
+                ["FaceId"] = 76690153,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308410706,
+                ["R6"] = 153230853
+            },
+            ["Run"] = {
+                ["Name"] = 'Run',
+                ["Weight"] = 1,
+                ["R15"] = 507767714,
+                ["Priority"] = 'Enum.AnimationPriority.Core',
+                ["Object"] = 'Run',
+                ["R6"] = 180426354
+            },
+            ["Swim"] = {
+                ["Name"] = 'Swim',
+                ["R6"] = 865902879,
+                ["Priority"] = 'Enum.AnimationPriority.Core',
+                ["R15"] = 507784897,
+                ["Object"] = 'Swim'
+            },
+            ["SwimIdle"] = {
+                ["Name"] = 'SwimIdle',
+                ["Weight"] = 0.5,
+                ["R15"] = 507785072,
+                ["Priority"] = 'Enum.AnimationPriority.Core',
+                ["Object"] = 'SwimIdle',
+                ["R6"] = 865918502
+            },
+            ["ConfusionOrb"] = {
+                ["Name"] = 'ConfusionOrb',
+                ["R6"] = 866550588,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 866541157,
+                ["Object"] = 'ConfusionOrb'
+            },
+            ["Punch"] = {
+                ["Name"] = 'Punch',
+                ["R6"] = 3175899997,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 3175791062,
+                ["Object"] = 'Punch'
+            },
+            ["Amazed"] = {
+                ["Object"] = 'Amazed',
+                ["Name"] = 'Amazed',
+                ["FaceId"] = 45528113,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 154174346,
+                ["R6"] = 154174346
+            },
+            ["Walk"] = {
+                ["Name"] = 'Walk',
+                ["Weight"] = 0.6,
+                ["R15"] = 507777826,
+                ["Priority"] = 'Enum.AnimationPriority.Core',
+                ["Object"] = 'Walk',
+                ["R6"] = 180426354
+            },
+            ["Swing"] = {
+                ["Name"] = 'Swing',
+                ["MovementCancel"] = true,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308330448,
+                ["Object"] = 'Swing'
+            },
+            ["Shuffle"] = {
+                ["Name"] = 'Shuffle',
+                ["MovementCancel"] = true,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308343244,
+                ["Object"] = 'Shuffle'
+            },
+            ["Whistle"] = {
+                ["Object"] = 'Whistle',
+                ["Name"] = 'Whistle',
+                ["Weight"] = 0.4,
+                ["R15"] = 4308430737,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R6"] = 180435571,
+                ["FaceId"] = 22877631
+            },
+            ["Cheer"] = {
+                ["Object"] = 'Cheer',
+                ["Name"] = 'Cheer',
+                ["FaceId"] = 27802003,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 507770677,
+                ["R6"] = 129423030
+            },
+            ["Evil"] = {
+                ["Object"] = 'Evil',
+                ["Name"] = 'Evil',
+                ["FaceId"] = 1604383339,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308438228,
+                ["R6"] = 1620296629
+            },
+            ["HipHop"] = {
+                ["Name"] = 'HipHop',
+                ["MovementCancel"] = true,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308346808,
+                ["Object"] = 'HipHop'
+            },
+            ["Dance2"] = {
+                ["Name"] = 'Dance2',
+                ["MovementCancel"] = true,
+                ["R15"] = 507776043,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["Object"] = 'Dance2',
+                ["R6"] = 182436842
+            },
+            ["Dance3"] = {
+                ["Name"] = 'Dance3',
+                ["MovementCancel"] = true,
+                ["R15"] = 507777268,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["Object"] = 'Dance3',
+                ["R6"] = 182436935
+            },
+            ["SitSeat"] = {
+                ["Name"] = 'SitSeat',
+                ["Weight"] = 0.99,
+                ["R15"] = 2506281703,
+                ["Priority"] = 'Enum.AnimationPriority.Core',
+                ["Object"] = 'SitSeat',
+                ["R6"] = 178130996
+            },
+            ["Think"] = {
+                ["Object"] = 'Think',
+                ["Name"] = 'Think',
+                ["FaceId"] = 209715003,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308415882,
+                ["R6"] = 154185274
+            },
+            ["Wave"] = {
+                ["Name"] = 'Wave',
+                ["R6"] = 128777973,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 507770239,
+                ["Object"] = 'Wave'
+            },
+            ["Eat"] = {
+                ["Object"] = 'Eat',
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["Name"] = 'Eat',
+                ["R15"] = 3343204532
+            },
+            ["Fall"] = {
+                ["Name"] = 'Fall',
+                ["Weight"] = 0.7,
+                ["R15"] = 507767968,
+                ["Priority"] = 'Enum.AnimationPriority.Core',
+                ["Object"] = 'Fall',
+                ["R6"] = 180436148
+            },
+            ["ThrowCoin"] = {
+                ["Name"] = 'ThrowCoin',
+                ["R6"] = 156055482,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 867194400,
+                ["Object"] = 'ThrowCoin'
+            },
+            ["Easy"] = {
+                ["Name"] = 'Easy',
+                ["MovementCancel"] = true,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308337079,
+                ["Object"] = 'Easy'
+            },
+            ["Driving"] = {
+                ["Name"] = 'Driving',
+                ["Weight"] = 0.99,
+                ["R15"] = 866020346,
+                ["Priority"] = 'Enum.AnimationPriority.Core',
+                ["Object"] = 'Driving',
+                ["R6"] = 178130996
+            },
+            ["Sit"] = {
+                ["Name"] = 'Sit',
+                ["MovementCancel"] = true,
+                ["R15"] = 4308421826,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["Object"] = 'Sit',
+                ["R6"] = 868508890
+            },
+            ["SleepSeat"] = {
+                ["SoundLooped"] = true,
+                ["R15"] = 4308318405,
+                ["FaceId"] = 66329905,
+                ["Object"] = 'SleepSeat',
+                ["Name"] = 'SleepSeat',
+                ["R6"] = 869468579,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["Volume"] = soundVolume,
+                ["MovementCancel"] = true
+            },
+            ["Marashin"] = {
+                ["Name"] = 'Marashin',
+                ["MovementCancel"] = true,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308362239,
+                ["Object"] = 'Marashin'
+            },
+            ["Scared"] = {
+                ["Object"] = 'Scared',
+                ["Name"] = 'Scared',
+                ["FaceId"] = 47206380,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308413393,
+                ["R6"] = 154170755
+            },
+            ["Clap"] = {
+                ["Name"] = 'Clap',
+                ["R6"] = 868730451,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308424082,
+                ["Object"] = 'Clap'
+            },
+            ["HipHop2"] = {
+                ["Name"] = 'HipHop2',
+                ["MovementCancel"] = true,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308356261,
+                ["Object"] = 'HipHop2'
+            },
+            ["Die"] = {
+                ["Object"] = 'Die',
+                ["R15"] = 4308443969,
+                ["Name"] = 'Die',
+                ["MovementCancel"] = true,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R6"] = 1620270981,
+                ["FaceId"] = 1604616024
+            },
+            ["Disgust"] = {
+                ["Object"] = 'Disgust',
+                ["Name"] = 'Disgust',
+                ["FaceId"] = 1598203828,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308435046,
+                ["R6"] = 1620305485
+            },
+            ["Hi"] = {
+                ["Name"] = 'Hi',
+                ["R6"] = 154179312,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308390587,
+                ["Object"] = 'Hi'
+            },
+            ["Flair"] = {
+                ["Name"] = 'Flair',
+                ["MovementCancel"] = true,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308358633,
+                ["Object"] = 'Flair'
+            },
+            ["Dance"] = {
+                ["Name"] = 'Dance',
+                ["MovementCancel"] = true,
+                ["R15"] = 507771019,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["Object"] = 'Dance',
+                ["R6"] = 182435998
+            },
+            ["Climb"] = {
+                ["Name"] = 'Climb',
+                ["R6"] = 180436334,
+                ["Priority"] = 'Enum.AnimationPriority.Core',
+                ["R15"] = 507765644,
+                ["Object"] = 'Climb'
+            },
+            ["WashHands"] = {
+                ["Name"] = 'WashHands',
+                ["R6"] = 1620296629,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 1799726387,
+                ["Object"] = 'WashHands'
+            },
+            ["ScaredOpeingPumpkin"] = {
+                ["Object"] = 'ScaredOpeingPumpkin',
+                ["Name"] = 'ScaredOpeingPumpkin',
+                ["FaceId"] = 47206380,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Idle',
+                ["R15"] = 867226524,
+                ["R6"] = 154170755
+            },
+            ["Angry"] = {
+                ["Object"] = 'Angry',
+                ["Name"] = 'Angry',
+                ["FaceId"] = 14020216,
+                ["SoundId"] = audioId,
+                ["Priority"] = 'Enum.AnimationPriority.Action',
+                ["R15"] = 4308387518,
+                ["R6"] = 154168543
+            }
+        };
+        local Target = game:GetService("Workspace").Main.LoadSoundsIntoHead;
+        for index, sound in pairs(game:service'Players'.LocalPlayer.Character.Head:GetChildren()) do
+            if sound:IsA'Sound' then
+                sound:Destroy()
+            end
+        end
+        Target:FireServer(table_1)
+        wait(.75)
+        game:GetService("Players").LocalPlayer.PlayerGui.UIEvents.ListItemPressed:Fire(userdata_1, userdata_2, userdata_3, table_2);
+    end)
+    idBox.Name = "idBox"
+    idBox.Parent = soundT
+    idBox.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    idBox.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    idBox.BorderSizePixel = 2
+    idBox.Position = UDim2.new(0.0695067272, 0, 0.188888878, 0)
+    idBox.Size = UDim2.new(0, 385, 0, 50)
+    idBox.Font = Enum.Font.Code
+    idBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+    idBox.PlaceholderText = "Song ID"
+    idBox.Text = ""
+    idBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+    idBox.TextScaled = true
+    idBox.TextSize = 14.000
+    idBox.TextWrapped = true
+    volBox.Name = "volBox"
+    volBox.Parent = soundT
+    volBox.BackgroundColor3 = Color3.fromRGB(78, 78, 78)
+    volBox.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    volBox.BorderSizePixel = 2
+    volBox.Position = UDim2.new(0.0695067272, 0, 0.352777779, 0)
+    volBox.Size = UDim2.new(0, 385, 0, 50)
+    volBox.Font = Enum.Font.Code
+    volBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+    volBox.PlaceholderText = "Volume"
+    volBox.Text = ""
+    volBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+    volBox.TextScaled = true
+    volBox.TextSize = 14.000
+    volBox.TextWrapped = true
+    buttonSpam.Name = "buttonSpam"
+    buttonSpam.Parent = soundT
+    buttonSpam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    buttonSpam.BackgroundTransparency = 1.000
+    buttonSpam.Position = UDim2.new(0.0672645643, 0, 0.794444501, 0)
+    buttonSpam.Size = UDim2.new(0, 387, 0, 52)
+    buttonSpam.Font = Enum.Font.Code
+    buttonSpam.Text = "Spam Sounds"
+    buttonSpam.TextColor3 = Color3.fromRGB(255, 255, 255)
+    buttonSpam.TextScaled = true
+    buttonSpam.TextSize = 14.000
+    buttonSpam.TextWrapped = true
+    buttonSpam.MouseButton1Click:Connect(function()
+        if getgenv().hit then
+            for i,v in pairs(game.Workspace:GetDescendants()) do
+                if v:IsA("Sound") then
+                    v:Play()
+                end
+            end       
+        end   
+    end)
+    -- Quetes:
+    while true do
+        random.Text = "eyo pizza here"
+        wait(0.8)
+        random.Text = "free ma jiggers"
+        wait(0.8)
+        random.Text = "no offence, but i hate your bizarre adventure"
+        wait(0.8)
+        random.Text = "axonz.me"
+        wait(0.8)
+        random.Text = "200 viewes LESSS GO"
+        wait(0.8)
+        random.Text = "https://bypass.vip"
+        wait(0.8)
+        random.Text = "wssup ma guy"
+        wait(0.8)
+        random.Text = "why does bypass.vip's admins look kinda scary"
+        wait(0.8)
+        random.Text = "sub pls"
+        wait(0.8)
+        random.Text = "senpai uwu"
+        wait(0.8)
+        random.Text = "i make minecraft skins"
+        wait(0.8)
+        random.Text = "sub to itz axonz for chocky milk"
+        wait(0.8)
+        random.Text = "owo"
+        wait(0.8)
+        random.Text = "my friends think that real life is an anime please help lol"
+        wait(0.8)
+        random.Text = "sussy balls"
+        wait(0.8)
+        random.Text = "sussy sussy by kaney east is the best song"
+        wait(0.8)
+        random.Text = "yeye"
+        wait(0.8)
+        random.Text = "its not dabebe its ma bebe"
+        wait(0.8)
+        random.Text = "i like NLE Choppa"
+        wait(0.8)
+        random.Text = "jokes on you"
+        wait(0.8)
+        random.Text = "that seems like a us problem"
+        wait(0.8)
+        random.Text = "E"
+        wait(0.8)
+        random.Text = "yuuuu"
+        wait(0.8)
+        random.Text = "epik"
+        wait(0.8)
+        random.Text = "i dont skid"
+        wait(0.8)   
+        random.Text = "roblox scripts #1"
+        wait(0.8)
+        random.Text = "dark hub is skided"
+        wait(0.8)
+        random.Text = "free bobux"
+        wait(0.8)
+        random.Text = "camelot"
+        wait(0.8)
+        random.Text = "dont ask me what the song says in the intro"
+        wait(0.8)
+        random.Text = "zeze"
+        wait(0.8)
+        random.Text = "kodak black"
+        wait(0.8)
+    end 
